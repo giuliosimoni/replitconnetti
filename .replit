@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 src/connetti.py"
+run = "python3 src/1.py"
