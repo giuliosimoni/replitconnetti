@@ -20,8 +20,21 @@ class Person:
     self.name = name
     self.age = age
 
-  def myfunc(self):
-    print("Hello my name is " + self.name)
+  def myfunc1(self):
+    print("My name is " + self.name)
 
-p1 = Person("John", 36)
-p1.myfunc()
+  def myfunc2(self):
+    print("My age is " + self.age)
+
+p1 = Person("John", "36")
+p1.myfunc1()
+p1.myfunc2()
+
+string='Hello World!'
+print(lambda string : print(string))
+
+sum [arg1 ,arg2]: arg1 + arg2
+
+# Now you can call sum as a function
+print("Value of total : ", sum( 10, 20 ))
+print( "Value of total : ", sum( 20, 20 ))
