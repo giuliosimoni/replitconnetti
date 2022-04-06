@@ -1,0 +1,41 @@
+COMANDI
+
+~/replitconnetti$ cd src
+~/replitconnetti/src$ ls
+lectures  main.py   recupero2020  recupero_2021
+lib   nuovo.py  recupero2021
+~/replitconnetti/src$ cd recupero_2021
+~/.../src/recupero_2021$ mkdir esercitazione
+~/.../src/recupero_2021$ cd esercitazione
+~/.../recupero_2021/esercitazione$ ls
+~/.../recupero_2021/esercitazione$ echo 'questa è una prova' > esercizio.txt
+~/.../recupero_2021/esercitazione$ ls
+esercizio.txt
+~/.../recupero_2021/esercitazione$ cat esercizio.txt
+questa è una prova
+~/.../recupero_2021/esercitazione$ 
+
+~/.../recupero_2021/esercitazione$ ls
+esercizio.txt
+~/.../recupero_2021/esercitazione$ cat > cat_file.txt
+anche questa è una prova
+vediamo se funziona
+^Z
+[1]+  Stopped                 cat > cat_file.txt
+~/.../recupero_2021/esercitazione$ ls
+cat_file.txt  esercizio.txt
+~/.../recupero_2021/esercitazione$ cat cat_file.txt 
+anche questa è una prova
+vediamo se funziona
+~/.../recupero_2021/esercitazione$ vi test_file.txt
+~/.../recupero_2021/esercitazione$ ls
+cat_file.txt  esercizio.txt  test_file.txt
+~/.../recupero_2021/esercitazione$ ls -lrht
+total 12K
+-rw-r--r-- 1 runner runner 20 Mar  6 17:06 esercizio.txt
+-rw-r--r-- 1 runner runner 46 Mar  6 17:16 cat_file.txt
+-rw-r--r-- 1 runner runner 28 Mar  6 17:30 test_file.txt
+~/.../recupero_2021/esercitazione$ cat test_file.txt
+Hi welcome !
+This is a test
+~/.../recupero_2021/esercitazione$ 

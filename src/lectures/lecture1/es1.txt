@@ -1,0 +1,157 @@
+COMANDI
+
+~/replitconnetti$ ls
+myout.dat  README.md  src
+~/replitconnetti$ cd src
+~/replitconnetti/src$ ls
+lectures  lib  main.py  nuovo.py  recupero2020  recupero2021
+~/replitconnetti/src$ mkdir recupero_2021
+~/replitconnetti/src$ ls
+lectures  main.py   recupero2020  recupero_2021
+lib   nuovo.py  recupero2021
+~/replitconnetti/src$ cd recupero_2021
+~/.../src/recupero_2021$ ls
+~/.../src/recupero_2021$ mkdir esercizi bash
+~/.../src/recupero_2021$ ls
+bash  esercizi
+~/.../src/recupero_2021$ rmdir esercizi
+~/.../src/recupero_2021$ ls
+bash
+~/.../src/recupero_2021$ rmdir bash
+~/.../src/recupero_2021$ ls
+~/.../src/recupero_2021$ mkdir esercizi_bash
+~/.../src/recupero_2021$ ls
+esercizi_bash
+~/.../src/recupero_2021$ mkdir lezione_1 lezione_2 lezione_3
+~/.../src/recupero_2021$ ls
+esercizi_bash  lezione_1  lezione_2  lezione_3
+~/.../src/recupero_2021$ rmdir lezione_1 lezione_2 lezione_3
+~/.../src/recupero_2021$ ls
+esercizi_bash
+~/.../src/recupero_2021$ cd esercizi_bash
+~/.../recupero_2021/esercizi_bash$ mkdir lezione_1 lezione_2 lezione_3~/.../recupero_2021/esercizi_bash$ ls
+lezione_1  lezione_2  lezione_3
+~/.../recupero_2021/esercizi_bash$ cd lezione_1
+~/.../esercizi_bash/lezione_1$ touch testo.txt es.sh
+~/.../esercizi_bash/lezione_1$ ls
+es.sh  testo.txt
+~/.../esercizi_bash/lezione_1$ cd ..
+~/.../recupero_2021/esercizi_bash$ cd lezione_3
+~/.../esercizi_bash/lezione_3$ touch es.sh
+~/.../esercizi_bash/lezione_3$ ls
+es.sh
+~/.../esercizi_bash/lezione_3$ mkdir dati
+~/.../esercizi_bash/lezione_3$ touch data1.txt data2.txt
+~/.../esercizi_bash/lezione_3$ ls
+data1.txt  data2.txt  dati  es.sh
+~/.../esercizi_bash/lezione_3$ rm data1.txt data2.txt
+~/.../esercizi_bash/lezione_3$ ls
+dati  es.sh
+~/.../esercizi_bash/lezione_3$ cd dati
+~/.../lezione_3/dati$ ls
+~/.../lezione_3/dati$ touch data1.txt data2.txt
+~/.../lezione_3/dati$ ls
+data1.txt  data2.txt
+~/.../lezione_3/dati$ 
+
+
+~/replitconnetti$ cd src
+~/replitconnetti/src$ cd recupero_2021
+~/.../src/recupero_2021$ cd esercizi_bash
+~/.../recupero_2021/esercizi_bash$ cd lezione_3
+~/.../esercizi_bash/lezione_3$ ls
+dati  es.sh
+~/.../esercizi_bash/lezione_3$ cd dati
+~/.../lezione_3/dati$ ls
+data1.txt  data2.txt
+~/.../lezione_3/dati$ mv data2.txt newdata
+~/.../lezione_3/dati$ rm newdata
+~/.../lezione_3/dati$ touch data2.txt
+~/.../lezione_3/dati$ mv data2.txt newdata.txt
+~/.../lezione_3/dati$ cd ..
+~/.../esercizi_bash/lezione_3$ cd ..
+~/.../recupero_2021/esercizi_bash$ cd lezione_1
+~/.../esercizi_bash/lezione_1$ ls
+es.sh  testo.txt
+~/.../esercizi_bash/lezione_1$ cp testo.txt nuovo.txt
+~/.../esercizi_bash/lezione_1$ cp testo.txt ~/replitconnetti/src/lectursenuovo.txt
+~/.../esercizi_bash/lezione_1$ cp testo.txt ~/replitconnetti/src/lectures/lecture1/nuovo.txt
+~/.../esercizi_bash/lezione_1$ cp testo.txt ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_2/nuovo.txt
+~/.../esercizi_bash/lezione_1$ cp testo.txt ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_2
+~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_3
+~/.../esercizi_bash/lezione_1$ 
+
+~/replitconnetti$ ls
+myout.dat  README.md  src
+~/replitconnetti$ cd src
+~/replitconnetti/src$ ls
+lectures  main.py   recupero2020  recupero_2021
+lib   nuovo.py  recupero2021
+~/replitconnetti/src$ cd recupero_2021
+~/.../src/recupero_2021$ ls
+esercizi_bash
+~/.../src/recupero_2021$ cd esercizi_bash
+~/.../recupero_2021/esercizi_bash$ ls
+lezione_1  lezione_2  lezione_3
+~/.../recupero_2021/esercizi_bash$ cd lezione_2
+~/.../esercizi_bash/lezione_2$ touch es.sh
+~/.../esercizi_bash/lezione_2$ ls
+es.sh  testo.txt
+~/.../esercizi_bash/lezione_2$ ls -l
+total 4
+-rw-r--r-- 1 runner runner   0 Mar  6 08:13 es.sh
+-rw-r--r-- 1 runner runner 272 Mar  4 12:22 testo.txt
+~/.../esercizi_bash/lezione_2$ chmod 777 es.sh
+~/.../esercizi_bash/lezione_2$ ls -l
+total 4
+-rwxrwxrwx 1 runner runner   0 Mar  6 08:13 es.sh
+-rw-r--r-- 1 runner runner 272 Mar  4 12:22 testo.txt
+~/.../esercizi_bash/lezione_2$ chmod 775 es.sh
+~/.../esercizi_bash/lezione_2$ ls -l
+total 4
+-rwxrwxr-x 1 runner runner   0 Mar  6 08:13 es.sh
+-rw-r--r-- 1 runner runner 272 Mar  4 12:22 testo.txt
+~/.../esercizi_bash/lezione_2$ chmod 755 es.sh
+~/.../esercizi_bash/lezione_2$ cd ..
+~/.../recupero_2021/esercizi_bash$ cd lezione_1
+~/.../esercizi_bash/lezione_1$ ls -l
+total 8
+-rw-r--r-- 1 runner runner   0 Mar  4 11:54 es.sh
+-rw-r--r-- 1 runner runner 272 Mar  4 12:18 nuovo.txt
+-rw-r--r-- 1 runner runner 272 Mar  4 12:13 testo.txt
+~/.../esercizi_bash/lezione_1$ chmod 775 es.sh
+~/.../esercizi_bash/lezione_1$ ls -l
+total 8
+-rwxrwxr-x 1 runner runner   0 Mar  4 11:54 es.sh
+-rw-r--r-- 1 runner runner 272 Mar  4 12:18 nuovo.txt
+-rw-r--r-- 1 runner runner 272 Mar  4 12:13 testo.txt
+~/.../esercizi_bash/lezione_1$ chmod 755 es.sh
+~/.../esercizi_bash/lezione_1$ ls -l
+total 8
+-rwxr-xr-x 1 runner runner   0 Mar  4 11:54 es.sh
+-rw-r--r-- 1 runner runner 272 Mar  4 12:18 nuovo.txt
+-rw-r--r-- 1 runner runner 272 Mar  4 12:13 testo.txt
+~/.../esercizi_bash/lezione_1$ 
+
+
+~/replitconnetti$ chmod 555 ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_1/testo.txt ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_2/testo.txt ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_3/dati/data1.txt ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_3/dati/newdata.txt
+~/replitconnetti$ cd ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_1
+~/.../esercizi_bash/lezione_1$ ls -l
+total 4
+---------- 1 runner runner   0 Mar  4 11:54 es.sh
+-r-xr-xr-x 1 runner runner 272 Mar  4 12:13 testo.txt
+~/.../esercizi_bash/lezione_1$ 
+
+~/.../esercizi_bash/lezione_3$ chmod 755 ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_1/es.sh ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_2/es.sh ~/replitconnetti/src/recupero_2021/esercizi_bash/lezione_3/es.sh
+~/.../esercizi_bash/lezione_3$ ls -l
+total 4
+drwxr-xr-x 1 runner runner  40 Mar  4 12:11 dati
+-rwxr-xr-x 1 runner runner   0 Mar  4 11:56 es.sh
+-rw-r--r-- 1 runner runner 272 Mar  4 12:28 testo.txt
+~/.../esercizi_bash/lezione_3$ cd ..
+~/.../recupero_2021/esercizi_bash$ cd lezione_2
+~/.../esercizi_bash/lezione_2$ ls -l
+total 4
+-rwxr-xr-x 1 runner runner   0 Mar  6 08:13 es.sh
+-r-xr-xr-x 1 runner runner 272 Mar  4 12:22 testo.txt
+~/.../esercizi_bash/lezione_2$ 

@@ -4,6 +4,8 @@ l2=[]
 l1=list(input("Enter (x_a;y_a): "))
 l2=list(input("Enter (x_b;y_b): "))
 
+
+
 xa=float(l1[1])
 xb=float(l2[1])
 ya=float(l1[3])

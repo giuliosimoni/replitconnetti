@@ -1,0 +1,9 @@
+~/replitconnetti$ cd src
+~/replitconnetti/src$ cd recupero_2021
+~/.../src/recupero_2021$ cd esercizi_bash
+~/.../recupero_2021/esercizi_bash$ cd lezione_3
+~/.../esercizi_bash/lezione_3$ ls
+dati  es.sh
+~/.../esercizi_bash/lezione_3$ cd dati
+~/.../lezione_3/dati$ ls
+data1.tx

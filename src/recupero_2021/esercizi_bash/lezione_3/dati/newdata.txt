@@ -1,0 +1,18 @@
+~/replitconnetti$ ls
+myout.dat  README.md  src
+~/replitconnetti$ cd src
+~/replitconnetti/src$ ls
+lectures  lib  main.py  nuovo.py  recupero2020  recupero2021
+~/replitconnetti/src$ mkdir recupero_2021
+~/replitconnetti/src$ ls
+lectures  main.py   recupero2020  recupero_2021
+lib   nuovo.py  recupero2021
+~/replitconnetti/src$ cd recupero_2021
+~/.../src/recupero_2021$ ls
+~/.../src/recupero_2021$ mkdir esercizi bash
+~/.../src/recupero_2021$ ls
+bash  esercizi
+~/.../src/recupero_2021$ rmdir esrecizi
+rmdir: failed to remove 'esrecizi': No such file or directory
+~/.../src/recupero_2021$ rmdir esrcizi
+rmdir: failed to remove 'esrcizi': No such file or directory

@@ -1,0 +1,7 @@
+#!/bin/bash
+pwd
+mkdir esperimento
+cd esperimento
+pwd
+touch pippo123456
+ls -l
