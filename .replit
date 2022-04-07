@@ -1,2 +1,2 @@
 language = "python3"
-run = "python3 src/PROBLEM_SOLVING/4.py"
+run = "python3 src/ESERCIZI_RECUPERO/PYTHON_2/ES4.py"
